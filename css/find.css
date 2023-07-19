@@ -61,4 +61,41 @@
   padding: 0 8px 0 8px;
 }
 
+/*PREPARE JOBS*/
+.prepareJob {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 1px solid var(--gray);
+  padding: 16px;
+  border-radius: 16px;
+}
 
+.prepareJob__detail{
+  display: flex;
+  justify-content: space-between;
+}
+
+.prepareJob__detail h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.prepareJob__detail p {
+  font-size: 12px;
+  color: var(--gray);
+}
+
+.prepareJobs__complete .bar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.prepareJobs__complete .bar progress[value] {
+  /* background-color: #0CA900; */
+}
+
+.prepareJobs__complete .bar label {
+  color: var(--gray);
+}
